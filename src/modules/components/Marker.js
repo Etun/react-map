@@ -14,7 +14,7 @@ const Marker= ({ text, onChange, selected, scale }) => (
           className={ css.marker }
           onClick={ onChange }
           style={{
-            transform: 'scale(' + scale + ')'
+            transform: `scale(${scale})`
           }}
         >
           {selected ? <div className={ css.markerBanner }>{ text }</div> : ''}
