@@ -28,6 +28,7 @@ Marker.propTypes = {
   text: PropTypes.string,
   onChange: PropTypes.func,
   selected: PropTypes.bool,
+  scale: PropTypes.number,
 };
 
 export default Marker;
