@@ -1,0 +1,12 @@
+.DS_STORE
+.env
+node_modules
+*.log
+*.log.*
+.idea/*
+idea
+.idea
+build
+_nogit
+/.vscode
+.module-cache
