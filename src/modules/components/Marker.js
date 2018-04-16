@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Motion, spring } from 'react-motion';
 
-import css from '../style/main.scss';
+import css from '../../style/main.scss';
 
 const Marker= ({ text, onChange, selected, scale }) => (
   <Motion

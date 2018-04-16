@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import pins from '../redux/pins';
+import pins from './pins';
 
 const appReducer = combineReducers({
   'pins': pins,

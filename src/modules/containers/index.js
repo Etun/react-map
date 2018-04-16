@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
-import Marker from '../components/Marker';
-import Map from '../components/Map';
+import Marker from '../../modules/components/Marker';
+import Map from '../../modules/components/Map';
 import { updateLocation as change } from '../redux/pins';
 
 @connect(

@@ -1,4 +1,4 @@
-import { generateRandomPlaces } from '../config/places';
+import { generateRandomPlaces } from '../../modules/config/places';
 
 const CHANGE_LOCATION = 'CHANGE_MARKER_LOCATION';
 
